@@ -1,17 +1,13 @@
-pw="Suraj@123"
-attempts=0
-
-while attempts<3:
-    n=input("Enter ur Password = ")
-
-    if n==pw:
-        print("Login Successful")
+num=[10,20,30,69,14]
+while True:
+    search=int(input("Enter the number to search: "))
+    found=False
+    for n in num:
+        if n==search:
+            found=True
+            break
+    if found:
+        print("Milgya")
         break
     else:
-        attempts+=1
-
-        if attempts==3:
-            print("Card Blocked")
-        else:
-            print("Wrong Password")
-            print("Attempts Left:",3-attempts)
+        print("Nahi Milgya")

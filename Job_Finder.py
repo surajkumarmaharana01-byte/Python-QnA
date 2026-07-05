@@ -93,7 +93,7 @@ def match_resume_to_roles(resume_text):
 
 def main():
     print("=== Resume -> Best Job Role Finder ===\n")
-    resume_text = input("Paste your RESUME text:\n")
+    resume_text = input("Enter your Skills :\n")
 
     results, resume_skills = match_resume_to_roles(resume_text)
 
